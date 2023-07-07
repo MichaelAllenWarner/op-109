@@ -10,9 +10,9 @@
   <figure>
     <img src={page35} alt="A page from one of Beethoven’s sketchbooks." />
     <figcaption>
-      Page 35 of Beethoven’s Artaria 195 Sketchbook, which contains the
-      conceptual sketch mentioned below of the second movement of the Op. 109
-      piano sonata.
+      <a href="/page-35">Page 35</a> of Beethoven’s Artaria 195 Sketchbook, which
+      contains the conceptual sketch mentioned below of the second movement of the
+      Op. 109 piano sonata.
     </figcaption>
   </figure>
 
@@ -21,7 +21,7 @@
     van Beethoven during the composition of his Piano Sonata in E, Opus 109,
     movement II. Researched and compiled by Dr. William Kinderman at the
     University of Illinois Urbana-Champaign School of Music, this investigation
-    is made possible by examining Beethoven's sketchbooks and drafts in the
+    is made possible by examining Beethoven’s sketchbooks and drafts in the
     Artaria 195 Sketchbook.
   </p>
   <p>
@@ -39,7 +39,7 @@
   </p>
   <p>
     Included with each draft are MIDI renderings of the sketchbooks shown. It
-    may be necessary in some sketches to follow the 'roadmap' provided in the
+    may be necessary in some sketches to follow the “roadmap” provided in the
     commentary to place what you are hearing with what you are seeing in the
     music. Beethoven often jumped around on a page, or even from page to page,
     in developing ideas in his sketchbooks. As a result, otherwise logical
@@ -62,7 +62,7 @@
 
   <p>
     All material is drawn from William Kinderman, <cite
-      >Artaria 195: Beethoven's Sketchbook for the Missa Solemnis and the Piano
+      >Artaria 195: Beethoven’s Sketchbook for the Missa Solemnis and the Piano
       Sonata in E Major, Opus 109</cite
     > (Urbana and Chicago: University of Illinois Press, 2003).
   </p>

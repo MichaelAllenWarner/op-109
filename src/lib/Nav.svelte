@@ -11,14 +11,14 @@
       title: 'Drafts 1a and b',
       url: '/draft-1',
     },
-    // {
-    //   title: 'Draft 2',
-    //   url: '/draft-2',
-    // },
-    // {
-    //   title: 'Draft 3',
-    //   url: '/draft-3',
-    // },
+    {
+      title: 'Draft 2',
+      url: '/draft-2',
+    },
+    {
+      title: 'Draft 3',
+      url: '/draft-3',
+    },
     // {
     //   title: 'Draft 4',
     //   url: '/draft-4',

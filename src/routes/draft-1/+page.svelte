@@ -36,6 +36,8 @@
     </figcaption>
   </figure>
 
+  <hr />
+
   <p>
     Parallel to the drafts above are these, found at the bottom of <a
       href="/page-35">page 35</a
