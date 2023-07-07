@@ -7,10 +7,10 @@
       title: 'Home',
       url: '/',
     },
-    // {
-    //   title: 'Drafts 1a and b',
-    //   url: '/draft-1',
-    // },
+    {
+      title: 'Drafts 1a and b',
+      url: '/draft-1',
+    },
     // {
     //   title: 'Draft 2',
     //   url: '/draft-2',

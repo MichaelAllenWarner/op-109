@@ -1,8 +1,8 @@
 <script lang="ts">
   import '../app.postcss';
   import { page } from '$app/stores';
-  import PageHeader from '../lib/PageHeader.svelte';
-  import Nav from '../lib/Nav.svelte';
+  import PageHeader from '$lib/PageHeader.svelte';
+  import Nav from '$lib/Nav.svelte';
 </script>
 
 <svelte:head>

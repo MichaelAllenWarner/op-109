@@ -2,8 +2,8 @@
   import page35 from '$lib/assets/page35.jpeg';
   import sketch1 from '$lib/assets/sketch1.gif';
   import sketch1Mp3 from '$lib/assets/sketch1.mp3';
-  import Prose from '../lib/Prose.svelte';
-  import SketchAndAudio from '../lib/SketchAndAudio.svelte';
+  import Prose from '$lib/Prose.svelte';
+  import SketchAndAudio from '$lib/SketchAndAudio.svelte';
 </script>
 
 <Prose>
