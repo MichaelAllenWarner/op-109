@@ -7,46 +7,46 @@
       title: 'Home',
       url: '/',
     },
-    {
-      title: 'Drafts 1a and b',
-      url: '/draft-1',
-    },
-    {
-      title: 'Draft 2',
-      url: '/draft-2',
-    },
-    {
-      title: 'Draft 3',
-      url: '/draft-3',
-    },
-    {
-      title: 'Draft 4',
-      url: '/draft-4',
-    },
-    {
-      title: 'Draft 5',
-      url: '/draft-5',
-    },
-    {
-      title: 'Draft 6',
-      url: '/draft-6',
-    },
-    {
-      title: 'Draft 7',
-      url: '/draft-7',
-    },
-    {
-      title: 'Draft 8',
-      url: '/draft-8',
-    },
-    {
-      title: 'Draft 9',
-      url: '/draft-9',
-    },
-    {
-      title: 'Finished work',
-      url: '/finished-work',
-    },
+    // {
+    //   title: 'Drafts 1a and b',
+    //   url: '/draft-1',
+    // },
+    // {
+    //   title: 'Draft 2',
+    //   url: '/draft-2',
+    // },
+    // {
+    //   title: 'Draft 3',
+    //   url: '/draft-3',
+    // },
+    // {
+    //   title: 'Draft 4',
+    //   url: '/draft-4',
+    // },
+    // {
+    //   title: 'Draft 5',
+    //   url: '/draft-5',
+    // },
+    // {
+    //   title: 'Draft 6',
+    //   url: '/draft-6',
+    // },
+    // {
+    //   title: 'Draft 7',
+    //   url: '/draft-7',
+    // },
+    // {
+    //   title: 'Draft 8',
+    //   url: '/draft-8',
+    // },
+    // {
+    //   title: 'Draft 9',
+    //   url: '/draft-9',
+    // },
+    // {
+    //   title: 'Finished work',
+    //   url: '/finished-work',
+    // },
   ];
 </script>
 
