@@ -25,7 +25,7 @@ const config = {
       md: em(768),
       lg: em(1024),
       xl: em(1280),
-      '2xl': em(1536),
+      // '2xl': em(1536),
     },
 
     extend: {
