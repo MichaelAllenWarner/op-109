@@ -9,7 +9,7 @@
   <title>{$page.data.title}</title>
 </svelte:head>
 
-<div class="bg-[#CCCC99] pt-8 pb-12">
+<div class="bg-[#CCCC99] pt-8 pb-12 min-h-screen">
   <div class="container space-y-10 sm:space-y-12">
     <header>
       <hgroup class="space-y-5 max-w-5xl mx-auto">
