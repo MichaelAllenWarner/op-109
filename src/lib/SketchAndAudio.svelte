@@ -1,25 +1,22 @@
 <script lang="ts">
-  export let image: {
+  export let images: {
     src: string;
     alt?: string;
-  };
-  export let image2:
-    | {
-        src: string;
-        alt?: string;
-      }
-    | undefined = undefined;
-  export let audioSrc: string;
+  }[];
+  export let audioSrc: string | undefined = undefined;
   export let caption: string | undefined = undefined;
 </script>
 
 <figure>
-  <div class="space-y-4">
-    <img class="mb-0" src={image.src} alt={image.alt || ''} />
-    {#if image2}
-      <img class="mb-0" src={image2.src} alt={image2.alt || ''} />
+  <div class="space-y-5">
+    {#each images as image}
+      <img class="!mb-0" src={image.src} alt={image.alt || ''} />
+    {/each}
+    {#if audioSrc}
+      <audio controls src={audioSrc}
+        ><a href={audioSrc}>Download audio</a></audio
+      >
     {/if}
-    <audio controls src={audioSrc}><a href={audioSrc}>Download audio</a></audio>
   </div>
   {#if caption}
     <figcaption>{caption}</figcaption>

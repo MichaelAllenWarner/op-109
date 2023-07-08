@@ -14,7 +14,7 @@
   </p>
 
   <SketchAndAudio
-    image={{ src: draft8, alt: 'Transcription of Draft 8, on page 46.' }}
+    images={[{ src: draft8, alt: 'Transcription of Draft 8, on page 46.' }]}
     audioSrc={draft8Mp3}
   />
 </Prose>

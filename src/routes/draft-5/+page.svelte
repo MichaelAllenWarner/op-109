@@ -10,11 +10,11 @@
 
 <Prose>
   <p>
-    Draft 5a begins on <a href="/page-37">page 37</a>, staves 7 - 8 as in Drafts
-    3 and 4. It skips the small notes of stave 7 and 8, continuing with the
-    larger notes on staves 10 and the lower continuation in the middle of stave
-    10. The “30” at the end of this system denotes an index to its continuation
-    on <a href="/page-39">page 39</a>, stave 9.
+    Draft 5a begins on <a href="/page-37">page 37</a>, staves 7-8 as in Drafts 3
+    and 4. It skips the small notes of stave 7 and 8, continuing with the larger
+    notes on staves 10 and the lower continuation in the middle of stave 10. The
+    “30” at the end of this system denotes an index to its continuation on
+    <a href="/page-39">page 39</a>, stave 9.
   </p>
 
   <figure>

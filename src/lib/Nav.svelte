@@ -19,6 +19,10 @@
       url: '/',
     },
     ...draftPageLinks,
+    {
+      title: 'Finished Work',
+      url: '/finished-work',
+    },
   ];
 </script>
 

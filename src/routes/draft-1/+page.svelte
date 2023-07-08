@@ -47,14 +47,16 @@
   </p>
 
   <SketchAndAudio
-    image={{
-      src: parallel1,
-      alt: 'Transcription of the part of the parallel draft at the bottom of page 35.',
-    }}
-    image2={{
-      src: parallel2,
-      alt: 'Transcription of the part of the parallel draft at the top of page 36.',
-    }}
+    images={[
+      {
+        src: parallel1,
+        alt: 'Transcription of the part of the parallel draft at the bottom of page 35.',
+      },
+      {
+        src: parallel2,
+        alt: 'Transcription of the part of the parallel draft at the top of page 36.',
+      },
+    ]}
     audioSrc={parallelMp3}
   />
 </Prose>

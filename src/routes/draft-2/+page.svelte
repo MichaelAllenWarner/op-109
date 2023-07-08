@@ -15,14 +15,16 @@
   </p>
 
   <SketchAndAudio
-    image={{
-      src: draft2,
-      alt: 'Transcription of the part of Draft 2 on page 41.',
-    }}
-    image2={{
-      src: draft2x,
-      alt: 'Transcription of the part of Draft 2 on page 42.',
-    }}
+    images={[
+      {
+        src: draft2,
+        alt: 'Transcription of the part of Draft 2 on page 41.',
+      },
+      {
+        src: draft2x,
+        alt: 'Transcription of the part of Draft 2 on page 42.',
+      },
+    ]}
     audioSrc={draft2Mp3}
   />
 </Prose>
