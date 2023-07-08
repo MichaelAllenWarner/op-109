@@ -1,52 +1,24 @@
 <script lang="ts">
   import { page } from '$app/stores';
 
-  // Could this be done programmatically?
+  // programmatically generate all the `/draft-n` links
+  const draftPageModules = import.meta.glob('/src/routes/draft-*/+page.svelte');
+  const draftPageLinks = Array.from(
+    { length: Object.keys(draftPageModules).length },
+    (_, i) => {
+      const n = i + 1;
+      const url = `/draft-${n}`;
+      const title = n === 1 ? 'Drafts 1a and b' : `Draft ${n}`;
+      return { url, title };
+    }
+  );
+
   const links = [
     {
       title: 'Home',
       url: '/',
     },
-    {
-      title: 'Drafts 1a and b',
-      url: '/draft-1',
-    },
-    {
-      title: 'Draft 2',
-      url: '/draft-2',
-    },
-    {
-      title: 'Draft 3',
-      url: '/draft-3',
-    },
-    {
-      title: 'Draft 4',
-      url: '/draft-4',
-    },
-    {
-      title: 'Draft 5',
-      url: '/draft-5',
-    },
-    // {
-    //   title: 'Draft 6',
-    //   url: '/draft-6',
-    // },
-    // {
-    //   title: 'Draft 7',
-    //   url: '/draft-7',
-    // },
-    // {
-    //   title: 'Draft 8',
-    //   url: '/draft-8',
-    // },
-    // {
-    //   title: 'Draft 9',
-    //   url: '/draft-9',
-    // },
-    // {
-    //   title: 'Finished work',
-    //   url: '/finished-work',
-    // },
+    ...draftPageLinks,
   ];
 </script>
 
