@@ -7,15 +7,6 @@
 </script>
 
 <Prose>
-  <figure>
-    <img src={page35} alt="A page from one of Beethoven’s sketchbooks." />
-    <figcaption>
-      <a href="/page-35">Page 35</a> of Beethoven’s Artaria 195 Sketchbook, which
-      contains the conceptual sketch mentioned below of the second movement of the
-      Op. 109 piano sonata.
-    </figcaption>
-  </figure>
-
   <p>
     This is a generative website that explores the creative process of Ludwig
     van Beethoven during the composition of his Piano Sonata in E, Opus 109,
