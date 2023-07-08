@@ -1,5 +1,6 @@
 <script lang="ts">
   import Prose from '$lib/Prose.svelte';
+  import SketchAndAudio from '$lib/SketchAndAudio.svelte';
   import draft4 from '$lib/assets/draft4.gif';
   import draft4Mp3 from '$lib/assets/draft4.mp3';
 </script>
@@ -12,13 +13,8 @@
     <em>upper</em> line continuing to a close in B minor in stave 12.
   </p>
 
-  <figure>
-    <img src={draft4} alt="Transcription of Draft 4 on page 37." />
-  </figure>
-
-  <figure>
-    <audio controls src={draft4Mp3}
-      ><a href={draft4Mp3}>Download audio.</a></audio
-    >
-  </figure>
+  <SketchAndAudio
+    image={{ src: draft4, alt: 'Transcription of Draft 4 on page 37.' }}
+    audioSrc={draft4Mp3}
+  />
 </Prose>

@@ -6,6 +6,7 @@
   import parallel1 from '$lib/assets/parallel1.gif';
   import parallel2 from '$lib/assets/parallel2.gif';
   import parallelMp3 from '$lib/assets/parallel.mp3';
+  import SketchAndAudio from '$lib/SketchAndAudio.svelte';
 </script>
 
 <Prose>
@@ -45,23 +46,15 @@
     and continued on the top of <a href="/page-36">page 36</a>:
   </p>
 
-  <figure>
-    <img
-      src={parallel1}
-      alt="Transcription of the part of the parallel draft at the bottom of page 35."
-    />
-  </figure>
-
-  <figure>
-    <img
-      src={parallel2}
-      alt="Transcription of the part of the parallel draft at the top of page 36."
-    />
-  </figure>
-
-  <figure>
-    <audio controls src={parallelMp3}
-      ><a href={parallelMp3}>Download audio.</a></audio
-    >
-  </figure>
+  <SketchAndAudio
+    image={{
+      src: parallel1,
+      alt: 'Transcription of the part of the parallel draft at the bottom of page 35.',
+    }}
+    image2={{
+      src: parallel2,
+      alt: 'Transcription of the part of the parallel draft at the top of page 36.',
+    }}
+    audioSrc={parallelMp3}
+  />
 </Prose>

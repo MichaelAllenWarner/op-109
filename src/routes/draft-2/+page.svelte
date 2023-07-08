@@ -3,6 +3,7 @@
   import draft2 from '$lib/assets/draft2.gif';
   import draft2x from '$lib/assets/draft2x.gif';
   import draft2Mp3 from '$lib/assets/draft2.mp3';
+  import SketchAndAudio from '$lib/SketchAndAudio.svelte';
 </script>
 
 <Prose>
@@ -13,17 +14,15 @@
     out versions in the tonic key (e minor) in the right hand.
   </p>
 
-  <figure>
-    <img src={draft2} alt="Transcription of the part of Draft 2 on page 41." />
-  </figure>
-
-  <figure>
-    <img src={draft2x} alt="Transcription of the part of Draft 2 on page 42." />
-  </figure>
-
-  <figure>
-    <audio controls src={draft2Mp3}
-      ><a href={draft2Mp3}>Download audio.</a></audio
-    >
-  </figure>
+  <SketchAndAudio
+    image={{
+      src: draft2,
+      alt: 'Transcription of the part of Draft 2 on page 41.',
+    }}
+    image2={{
+      src: draft2x,
+      alt: 'Transcription of the part of Draft 2 on page 42.',
+    }}
+    audioSrc={draft2Mp3}
+  />
 </Prose>

@@ -3,6 +3,7 @@
   import draft3a from '$lib/assets/draft3a.gif';
   import draft3b from '$lib/assets/draft3b.gif';
   import draft3Mp3 from '$lib/assets/draft3.mp3';
+  import SketchAndAudio from '$lib/SketchAndAudio.svelte';
 </script>
 
 <Prose>
@@ -12,17 +13,15 @@
     <a href="/page-39">page 39</a>, staves 1 and 2 (“100”):
   </p>
 
-  <figure>
-    <img src={draft3a} alt="Transcription of the part of Draft 3 on page 37." />
-  </figure>
-
-  <figure>
-    <img src={draft3b} alt="Transcription of the part of Draft 3 on page 39." />
-  </figure>
-
-  <figure>
-    <audio controls src={draft3Mp3}
-      ><a href={draft3Mp3}>Download audio.</a></audio
-    >
-  </figure>
+  <SketchAndAudio
+    image={{
+      src: draft3a,
+      alt: 'Transcription of the part of Draft 3 on page 37.',
+    }}
+    image2={{
+      src: draft3b,
+      alt: 'Transcription of the part of Draft 3 on page 39.',
+    }}
+    audioSrc={draft3Mp3}
+  />
 </Prose>
