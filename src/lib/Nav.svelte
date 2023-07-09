@@ -43,7 +43,7 @@
     ...(nextLink ? [{ url: nextLink.url, title: 'Next' }] : []),
   ];
 
-  $: bottomLinks = links.slice(1);
+  const bottomLinks = links.slice(1);
 </script>
 
 <nav aria-label="Main" class="mx-auto max-w-max space-y-6">
