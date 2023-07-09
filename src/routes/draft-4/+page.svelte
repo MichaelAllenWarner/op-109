@@ -14,7 +14,14 @@
   </p>
 
   <SketchAndAudio
-    images={[{ src: draft4, alt: 'Transcription of Draft 4 on page 37.' }]}
+    images={[
+      {
+        src: draft4,
+        alt: 'Transcription of Draft 4 on page 37.',
+        width: 952,
+        height: 283,
+      },
+    ]}
     audioSrc={draft4Mp3}
   />
 </Prose>

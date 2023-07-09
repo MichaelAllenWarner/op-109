@@ -25,10 +25,14 @@
       {
         src: draft7a1,
         alt: 'Transcription of the part of Draft 7 on page 44.',
+        width: 917,
+        height: 689,
       },
       {
         src: draft7a2,
         alt: 'Transcription of the part of Draft 7 on page 44.',
+        width: 941,
+        height: 684,
       },
     ]}
     audioSrc={draft7aMp3}

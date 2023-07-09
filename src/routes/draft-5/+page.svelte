@@ -21,6 +21,8 @@
     <img
       src={draft5a1}
       alt="Transcription of the part of Draft 5a on page 37."
+      width={974}
+      height={195}
     />
   </figure>
 
@@ -38,6 +40,8 @@
     <img
       src={draft5a2}
       alt="Transcription of the part of Draft 5a on page 39."
+      width={982}
+      height={529}
     />
   </figure>
 
@@ -52,6 +56,8 @@
     <img
       src={draft5a3}
       alt="Transcription of the part of Draft 5a on page 40."
+      width={963}
+      height={129}
     />
   </figure>
 
@@ -64,6 +70,8 @@
     <img
       src={draft5a4}
       alt="Transcription of the part of Draft 5a on page 38."
+      width={966}
+      height={133}
     />
   </figure>
 

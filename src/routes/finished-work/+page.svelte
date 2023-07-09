@@ -29,18 +29,26 @@
       {
         src: op109iia,
         alt: 'Page 1 of Op 109, second movement.',
+        width: 658,
+        height: 866,
       },
       {
         src: op109iib,
         alt: 'Page 2 of Op 109, second movement.',
+        width: 658,
+        height: 866,
       },
       {
         src: op109iic,
         alt: 'Page 3 of Op 109, second movement.',
+        width: 658,
+        height: 866,
       },
       {
         src: op109iid,
         alt: 'Page 4 of Op 109, second movement.',
+        width: 658,
+        height: 866,
       },
     ]}
   />

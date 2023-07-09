@@ -26,10 +26,30 @@
 
   <SketchAndAudio
     images={[
-      { src: draft9a, alt: 'Transcription of part of Draft 9a on page 47.' },
-      { src: draft9b, alt: 'Transcription of part of Draft 9a on page 48.' },
-      { src: draft9c, alt: 'Transcription of part of Draft 9a on page 49.' },
-      { src: draft9d, alt: 'Transcription of part of Draft 9a on page 50.' },
+      {
+        src: draft9a,
+        alt: 'Transcription of part of Draft 9a on page 47.',
+        width: 924,
+        height: 678,
+      },
+      {
+        src: draft9b,
+        alt: 'Transcription of part of Draft 9a on page 48.',
+        width: 949,
+        height: 710,
+      },
+      {
+        src: draft9c,
+        alt: 'Transcription of part of Draft 9a on page 49.',
+        width: 946,
+        height: 705,
+      },
+      {
+        src: draft9d,
+        alt: 'Transcription of part of Draft 9a on page 50.',
+        width: 962,
+        height: 722,
+      },
     ]}
     audioSrc={draft9aMp3}
     caption="Draft 9a"
@@ -51,6 +71,8 @@
       {
         src: draft9e,
         alt: 'Transcription of the part of Draft 9b on page 46.',
+        width: 925,
+        height: 488,
       },
     ]}
     audioSrc={draft9bMp3}

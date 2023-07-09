@@ -11,7 +11,12 @@
 
 <Prose>
   <figure>
-    <img src={draft1a} alt="Transcription of a Beethoven sketch." />
+    <img
+      src={draft1a}
+      alt="Transcription of a Beethoven sketch."
+      width={972}
+      height={325}
+    />
     <figcaption>
       Draft 1a and 1b, found on <a href="/page-35">page 35</a>, stave 10–15.
     </figcaption>
@@ -51,10 +56,14 @@
       {
         src: parallel1,
         alt: 'Transcription of the part of the parallel draft at the bottom of page 35.',
+        width: 759,
+        height: 176,
       },
       {
         src: parallel2,
         alt: 'Transcription of the part of the parallel draft at the top of page 36.',
+        width: 979,
+        height: 121,
       },
     ]}
     audioSrc={parallelMp3}
