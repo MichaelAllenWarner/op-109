@@ -43,7 +43,14 @@
   <hr />
 
   <SketchAndAudio
-    images={[{ src: sketch1, alt: 'Transcription of a Beethoven sketch.' }]}
+    images={[
+      {
+        src: sketch1,
+        alt: 'Transcription of a Beethoven sketch.',
+        width: 1000,
+        height: 79,
+      },
+    ]}
     audioSrc={sketch1Mp3}
     caption="Transcription of Beethoven’s conceptual sketch for the second movement of Op. 109 piano sonata, from page 35 of the Artaria 195 Sketchbook."
   />
