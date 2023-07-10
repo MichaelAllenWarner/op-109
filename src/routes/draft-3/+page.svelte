@@ -4,7 +4,10 @@
   import draft3b from '$lib/assets/draft3b.gif';
   import draft3Mp3 from '$lib/assets/draft3.mp3';
   import SketchAndAudio from '$lib/SketchAndAudio.svelte';
+  import Head from '$lib/Head.svelte';
 </script>
+
+<Head />
 
 <Prose>
   <p>

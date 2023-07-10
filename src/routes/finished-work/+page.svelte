@@ -6,7 +6,10 @@
   import op109iid from '$lib/assets/op109iid.jpg';
   import op109Mp3 from '$lib/assets/OP109.mp3';
   import SketchAndAudio from '$lib/SketchAndAudio.svelte';
+  import Head from '$lib/Head.svelte';
 </script>
+
+<Head />
 
 <Prose>
   <p>

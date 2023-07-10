@@ -6,7 +6,10 @@
   import draft5a4 from '$lib/assets/draft5a4.gif';
   import draft5aWav from '$lib/assets/draft5a.wav';
   import draft5bMp3 from '$lib/assets/draft5b.mp3';
+  import Head from '$lib/Head.svelte';
 </script>
+
+<Head />
 
 <Prose>
   <p>

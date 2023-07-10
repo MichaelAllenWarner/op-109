@@ -5,7 +5,10 @@
   import draft7aMp3 from '$lib/assets/draft7a.mp3';
   import draft7bMp3 from '$lib/assets/draft7b.mp3';
   import SketchAndAudio from '$lib/SketchAndAudio.svelte';
+  import Head from '$lib/Head.svelte';
 </script>
+
+<Head />
 
 <Prose>
   <p>

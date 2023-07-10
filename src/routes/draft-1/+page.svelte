@@ -7,7 +7,10 @@
   import parallel2 from '$lib/assets/parallel2.gif';
   import parallelMp3 from '$lib/assets/parallel.mp3';
   import SketchAndAudio from '$lib/SketchAndAudio.svelte';
+  import Head from '$lib/Head.svelte';
 </script>
+
+<Head />
 
 <Prose>
   <figure>
