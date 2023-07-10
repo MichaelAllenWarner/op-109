@@ -46,7 +46,7 @@
   const bottomLinks = links.slice(1);
 </script>
 
-<nav aria-label="Main" class="mx-auto max-w-max space-y-6">
-  <NavList centered links={topLinks} {currentLink} />
+<nav aria-label="Main" class="space-y-6">
+  <NavList links={topLinks} {currentLink} />
   <NavList links={bottomLinks} {currentLink} />
 </nav>

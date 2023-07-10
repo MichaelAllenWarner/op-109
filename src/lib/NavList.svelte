@@ -1,16 +1,10 @@
 <script lang="ts">
-  export let centered = false;
   export let links: { url: string; title: string }[] = [];
   export let currentLink: (typeof links)[number] | undefined = undefined;
 </script>
 
 {#if links.length > 0}
-  <ol
-    role="list"
-    class="flex flex-wrap gap-x-3 gap-y-1.5 {centered
-      ? 'mx-auto max-w-max'
-      : ''}"
-  >
+  <ol role="list" class="flex flex-wrap gap-x-3 gap-y-1.5 mx-auto max-w-max">
     {#each links as link}
       <li
         class="
