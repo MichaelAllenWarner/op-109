@@ -55,8 +55,13 @@
       },
     ]}
     audioSrc={sketch1Mp3}
-    caption="Transcription of Beethoven’s conceptual sketch for the second movement of Op. 109 piano sonata, from page 35 of the Artaria 195 Sketchbook."
-  />
+  >
+    <svelte:fragment slot="caption">
+      Transcription of Beethoven’s conceptual sketch for the second movement of
+      his Op. 109 piano sonata, from <a href="/page-35">page 35</a> of the Artaria
+      195 Sketchbook.
+    </svelte:fragment>
+  </SketchAndAudio>
 
   <hr />
 

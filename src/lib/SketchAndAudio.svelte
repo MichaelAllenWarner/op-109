@@ -28,5 +28,7 @@
   </div>
   {#if caption}
     <figcaption>{caption}</figcaption>
+  {:else if $$slots.caption}
+    <figcaption><slot name="caption" /></figcaption>
   {/if}
 </figure>
