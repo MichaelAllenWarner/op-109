@@ -12,8 +12,8 @@
   <p>
     Draft 8 is a sketch of the exposition. It is on <a href="/page-46"
       >page 46</a
-    >, staves 1-8. (“8” in this case means to double at the octave, “7” at the
-    7th.)
+    >, staves 1-8. (“8” in this context indicates doubling at the octave [stave
+    4], “7” indicates doubling at the seventh [staves 7-8].)
   </p>
 
   <SketchAndAudio

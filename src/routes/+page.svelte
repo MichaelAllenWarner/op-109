@@ -12,10 +12,10 @@
   <p>
     This is a generative website that explores the creative process of Ludwig
     van Beethoven during the composition of his Piano Sonata in E, Opus 109,
-    movement II. Researched and compiled by Dr. William Kinderman at the
-    University of Illinois Urbana-Champaign School of Music, this investigation
-    is made possible by examining Beethoven’s sketchbooks and drafts in the
-    Artaria 195 Sketchbook.
+    movement II. Researched and compiled by Dr. William Kinderman, Krown Klein
+    Chair of Performance Studies, University of California, Los Angeles, this
+    investigation is made possible by examining Beethoven’s sketchbooks and
+    drafts in the Artaria 195 Sketchbook.
   </p>
   <p>
     The Artaria 195 Sketchbook is held in the Music Department of the
