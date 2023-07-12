@@ -5,6 +5,14 @@
   import Nav from '$lib/Nav.svelte';
 </script>
 
+<svelte:head>
+  <title
+    >{$page.data.title} | Sketches for Beethoven’s Piano Sonata in E, Opus 109, Second
+    Movement</title
+  >
+  <meta name="description" content={$page.data.description} />
+</svelte:head>
+
 <div class="bg-[#CCCC99] pt-8 pb-12 min-h-screen">
   <div class="container space-y-10 sm:space-y-12">
     <header>

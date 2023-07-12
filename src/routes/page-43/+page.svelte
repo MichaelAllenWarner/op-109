@@ -1,9 +1,6 @@
 <script lang="ts">
   import page43 from '$lib/assets/page43.jpg';
-  import Head from '$lib/Head.svelte';
 </script>
-
-<Head />
 
 <img
   src={page43}

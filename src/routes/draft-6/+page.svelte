@@ -6,10 +6,7 @@
   import draft6bMp3 from '$lib/assets/draft6b.mp3';
   import draft6cMp3 from '$lib/assets/draft6c.mp3';
   import SketchAndAudio from '$lib/SketchAndAudio.svelte';
-  import Head from '$lib/Head.svelte';
 </script>
-
-<Head />
 
 <Prose>
   <p>

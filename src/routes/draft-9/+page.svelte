@@ -8,10 +8,7 @@
   import draft9e from '$lib/assets/draft9e.gif';
   import draft9aMp3 from '$lib/assets/draft9a.mp3';
   import draft9bMp3 from '$lib/assets/draft9b.mp3';
-  import Head from '$lib/Head.svelte';
 </script>
-
-<Head />
 
 <Prose>
   <p>
