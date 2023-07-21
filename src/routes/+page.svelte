@@ -66,6 +66,16 @@
     All material is drawn from William Kinderman, <cite
       >Artaria 195: Beethoven’s Sketchbook for the Missa Solemnis and the Piano
       Sonata in E Major, Opus 109</cite
-    > (Urbana and Chicago: University of Illinois Press, 2003).
+    >
+    (Urbana and Chicago: University of Illinois Press, 2003). The responses to this
+    three-volume publication have included a publication with recordings by the distinguished
+    Swiss composer and pianist Jürg Wyttenbach,
+    <cite>Skizzen zu Ludwig van Beethovens Klaviersonate op. 109</cite>
+    (<cite>Sketches for Ludwig van Beethoven’s Piano Sonata Op. 109</cite>)
+    (Saarbrücken: Pfau-Verlag, 2011). Wyttenbach completed several of the unused
+    sketched variations for the finale of op. 109, as well as a preliminary
+    version of the second movement, thereby shedding light on aspects of
+    Beethoven’s creative process while using his sketches as a springboard to
+    fresh artistic insights.
   </p>
 </Prose>
